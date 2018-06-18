@@ -1,0 +1,55 @@
+[1007/091711.025:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091711.025:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091711.025:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091711.025:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091711.025:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/091711.040:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1007/091711.043:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/080400.080:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/080400.120:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/080400.120:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/080400.120:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/080400.120:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/080400.124:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1008/080400.125:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/090951.005:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/090951.006:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/090951.006:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/090951.006:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/090951.006:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/090951.011:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1008/090951.012:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/092505.771:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/092505.771:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/092505.771:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/092505.772:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1008/092505.772:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1008/092505.776:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1008/092505.777:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0301/075921.981:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0301/075922.059:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0301/075922.059:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0411/191143.305:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0411/191143.334:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0411/191143.335:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0428/191430.448:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0428/191430.470:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0428/191430.471:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[0503/194225.062:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0503/194225.266:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0503/194225.267:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0503/223407.034:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0503/223407.371:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0503/223407.372:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0504/154900.909:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0504/154901.153:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0504/154901.155:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0512/110540.447:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0512/110540.587:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0512/110540.587:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0522/212954.685:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0522/212954.702:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0522/212954.703:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0603/142938.134:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0603/142938.153:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0603/142938.154:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)

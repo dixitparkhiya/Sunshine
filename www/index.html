@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Developer</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,3);
+	background-color: darkgrey;
+}
+        body{
+        width: 100%;
+        height: auto;
+        background-color: gray;
+    
+        }
+        header{
+            width: 100%;
+            height: auto;
+        }
+        .title_main{
+            height: auto;
+            width:100%;
+            
+        }
+        .title_img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            filter: brightness(0.4);
+        } 
+        .title_web{
+            font-size: 130px;
+            color: aliceblue;
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            letter-spacing: 2px;
+            font-family: 'PT Sans Narrow';
+            padding: 0px;
+            transition: 0.5s ease-in;
+            text-shadow: 3px 3px gray,3px 6px black;
+        }
+        .title_web:hover{
+            transform: scale(1.045);
+        }
+        .nav{
+            position: absolute;
+            top: 2%;
+            left: 35%;
+            right: 20%;
+        }
+        .nav span
+        {
+        color: gold;
+        font-size: 30px;
+        font-family: 'EB Garamond',serif;
+        }
+        .nav span span{
+            color:lightblue;
+            font-family: 'lora',serif;
+        }
+        #title_icon{
+            height: 220px;
+            border: 2px solid;
+            background-color: rgba(0,0,0,0.8);
+            position: absolute;
+            width: auto;
+            top: 70%;
+            left: 0px;
+            right: 0px;
+        }
+        
+        #title_icon li{display: inline-block;}
+        #title_icon img{
+            height: 160px;
+            width: auto;
+            padding: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+            transition: 0.4s ease;
+        }
+        #title_icon img:hover{
+            filter: brightness(0.5);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="title_main">
+    <img src="computer-laptop-technology-keyboard-wallpaper.jpg" class="title_img">
+    <div class="nav">
+    <span>We create websites that have it all : <span>Beauty and Brains.</span></span>
+    </div>
+    <span  class="title_web">Developer Desk</span>
+    <div id="title_icon">
+        <ol>
+        <li><abbr title="JAVA"><img src="if_code-programming-java-software-develop-command-language_652579.png"></abbr></li>
+        <li><abbr title="Cascading stylesheet"><img src="if_code-programming-css-style-develop-layout-language_652584.png"></abbr><li>
+            <li><abbr title="HTML5"><img src="if_code-programming-html-markup-develop-layout-language_652583.png"></abbr></li>
+            <li><abbr title="jQuery"><img src="if_code-programming-javascript-jquery-develop-framework-language_652582.png"></abbr></li>
+            <li><abbr title="Java Script"><img src="if_code-programming-javascript-software-develop-command-language_652581.png"></abbr></li>
+            <li><abbr title="Wordpress"><img src="wordpress.png"></abbr></li>
+        </ol>
+    </div>
+</div>
+    
+</header>
+</body>
+</html>

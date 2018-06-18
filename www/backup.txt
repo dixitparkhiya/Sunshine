@@ -1,0 +1,366 @@
+<html>
+<head>
+    <title>Web Developer</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            width: auto;
+            height: auto;
+            transition: 0.9s;
+            font-size:18px;
+        }
+        header{
+            height: 100%;
+            width: 100%;
+        }
+         ::-webkit-scrollbar-track
+        {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	     border-radius: 10px;
+	     background-color: #F5F5F5;
+         }
+
+         ::-webkit-scrollbar
+         {
+	   width: 12px;
+	   background-color: #F5F5F5;
+        }
+       ::-webkit-scrollbar-thumb
+     {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,3);
+	background-color: darkgrey;
+    }
+        .title_main{
+            height: auto;
+            width:99%;
+            
+        }
+        .title_img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            filter: brightness(0.4);
+        } 
+        .title_web{
+            font-size: 130px;
+            color: aliceblue;
+            position: absolute;
+            top: 20%;
+            left: 33%;
+            letter-spacing: 2px;
+            font-family: 'PT Sans Narrow';
+            padding: 0px;
+            transition: 0.5s ease-in;
+            text-shadow: 3px 3px gray,3px 6px black;
+        }
+        .title_web:hover{
+            transform: scale(1.045);
+        }
+        .nav{
+            position: absolute;
+            top: 2%;
+            left: 35%;
+            right: 20%;
+        }
+        .nav span
+        {
+        color: gold;
+        font-size: 30px;
+        font-family: 'EB Garamond',serif;
+        }
+        .nav span span{
+            color:lightblue;
+            font-family: 'lora',serif;
+        }
+        #title_icon{
+            height: 220px;
+            border: 2px solid;
+            background-color: rgba(0,0,0,0.8);
+            position: absolute;
+            width: auto;
+            top: 70%;
+            left: 0px;
+            right: 0px;
+        }
+        
+        #title_icon li{display: inline-block;}
+        #title_icon img{
+            height: 160px;
+            width: auto;
+            padding: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+            transition: 0.4s ease;
+        }
+        #title_icon img:hover{
+            filter: brightness(0.5);
+            transform: scale(1.05);
+        }
+        .icon{
+            position: absolute;
+            top:14%;
+            left: 4%;
+            height: 300px;
+            width: 300px;
+            border: 0px solid;
+            overflow: hidden;
+            border-radius: 500px;
+        }
+        .icon:hover{
+            transition: 09s;
+        }
+        .icon img{
+            position: absolute;
+            top: -20px;
+            z-index: -1;
+        }
+        .icon:hover .icon_inf{
+            display: block;
+        }
+        .icon:hover img{
+            filter: brightness(0.4);
+            transition: 0.9s;
+        }
+        .icon_inf{
+            color: aliceblue;
+            position: relative;
+            font-size: 40px;
+            position: relative;
+            top: 50px;
+            display: none;
+            left: 80px;
+        }
+        #intro{
+            height: 100%;
+            width: auto;
+            font-family: Garamond;
+        }
+        .intro_pro{
+            height: 100%;
+            width: 30%;
+            border:1px solid;
+        }
+        .intro_pro div{
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            border: 0px solid;
+            border-radius: 500px;
+            //box-shadow: 0px 0px 10px blue,0px 0px 10px gray;
+            margin-top: 0px;
+            margin-left: 75px;
+        }
+        .intro_pro > div >img:last-child{
+            position: absolute;
+            top: 880px;
+            left: 70px
+        } 
+        .intro_pro p{
+            text-align: center;
+            font-size: 39;
+            font-family: "lora";
+        }
+        .intro_pro table{
+            width:100%;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .intro_pro td:first-child{
+            background-color: antiquewhite;
+            width: 150;
+            padding: 15;
+        }
+        .intro_pro table td:last-child{
+            background-color: aliceblue;
+            text-align: center;
+        }
+        #intro_per{
+            height: 98%;
+            width: 840px;
+            position: absolute;
+            top: 101%;
+            border: 0px solid;
+            left: 600px;
+        }
+        .intro_bio{
+            position: inherit;
+            height: 60%;
+            width: 100%;
+        }
+        .intro_bio table{
+            width: 100%;
+            margin-top:20px;margin-bottom: 40px;
+            font-size: 20px;
+            
+        }
+        .intro_bio th{
+            font-size: 40px;
+            font-family: "lora";
+            letter-spacing: 3px;
+            background-color: aliceblue;
+        }
+        .intro_bio td{
+            padding: 10px;
+        }
+        .intro_prn{
+            background-color:floralwhite;
+            height: 40%;
+            width: 100%;
+            position: inherit;
+            top: 60%;
+        }
+        .none{
+            font-size: 30px;
+            font-family: "lora";
+            letter-spacing: 3px;
+        }
+    .container {
+  width: 90%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+.html {width: 95%; background-color: #4CAF50;}
+.css {width: 90%; background-color: #2196F3;}
+.js {width: 75%; background-color: #f44336;}
+    </style>
+    <script>
+    $(document).ready(function(){
+
+    });
+        
+    </script>
+</head>
+<body>
+    <header>
+    <div class="title_main">
+    <img src="computer-laptop-technology-keyboard-wallpaper.jpg" class="title_img">
+    <div class="nav">
+    <span>We create websites that have it all : <span>Beauty and Brains.</span></span>
+    </div>
+    <span  class="title_web">Developer Desk</span>
+    <div class="icon">
+    <img src="IMG_20170814_164002_1502884765034%20-%20Copy.jpg" height="540">
+        <span class="icon_inf">&emsp;Full<br>&nbsp;&nbsp;&nbsp;stack<br>Developer<p>&nbsp;&nbsp;&nbsp;Click</p></span>   
+    </div>
+    <div id="title_icon">
+        <ol>
+        <li><abbr title="JAVA"><img src="if_code-programming-java-software-develop-command-language_652579.png"></abbr></li>
+        <li><abbr title="Cascading stylesheet"><img src="if_code-programming-css-style-develop-layout-language_652584.png"></abbr><li>
+            <li><abbr title="HTML5"><img src="if_code-programming-html-markup-develop-layout-language_652583.png"></abbr></li>
+            <li><abbr title="jQuery"><img src="if_code-programming-javascript-jquery-develop-framework-language_652582.png"></abbr></li>
+            <li><abbr title="Java Script"><img src="if_code-programming-javascript-software-develop-command-language_652581.png"></abbr></li>
+            <li><abbr title="Wordpress"><img src="wordpress.png"></abbr></li>
+        </ol>
+    </div>
+    </div>
+    </header>
+    <br>
+    <div id="intro">
+    <div class="intro_pro">
+        <p>&#9829 Mr. Pro'file &#9829</p>
+        <div><img src="IMG_20170814_164002_1502884765034%20-%20Copy.jpg" heigh=400 width=300>
+        <img src="Stars_PNG_Round_Border_Frame.png" height="330" width="auto">
+        </div>
+        <br>
+        <table>
+        <tr>
+            <td>&#9884 Name</td>
+            <td>Dixit Patel</td>
+        </tr>
+        <tr>
+            <td>&#9742 Contect No.</td>
+            <td>654-45-123</td>
+        </tr>
+        <tr>
+            <td>&#9818 Address</td>
+            <td>New York , USA</td>
+        </tr>
+        <tr>
+            <td>&#9749 Profession</td>
+            <td>Web Developer</td>
+        </tr>  
+        <tr>
+            <td>&#9978 Degree</td>
+            <td>B.Tech in Computer Science</td>
+        </tr>
+        
+        </table>
+    </div>
+    <div id="intro_per">
+    <div class="intro_bio">
+        <table>
+        <tr>
+        <th colspan="2">Imformation </th>
+        </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Name</td>
+        <td>Dixit Patel</td>
+        </tr>
+        <tr>
+        <td>Collage</td>
+        <td>Nirma University</td>
+        </tr>
+        <tr>
+        <td>Gender</td>
+        <td>Male</td>
+        </tr>
+        <tr>
+        <td>Nationality</td>
+        <td>Indian</td>
+        </tr>
+        <tr>
+        <td rowspan="2">Experience</td>
+        <td> Leader at Final Year Project</td>
+        </tr>
+        <tr>
+        <td>freelancer developer (1 Year)</td>
+        </tr>
+        <tr>
+        <td>Hobbies</td>
+        <td>Playing Cricket , Curious about Space</td>
+        </tr>
+        </table>
+    </div>
+    <div class="intro_prn">
+      <span class="none">Skills : </span>HTML , JS ,  CSS , jQuery , Wordpress , Bootstrap , SQL.
+        <p>HTML</p>
+<div class="container">
+  <div class="skills html">95%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">90%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">75%</div>
+</div>
+    </div>
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+[1006/225735.269:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225735.269:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225735.269:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225735.269:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225735.269:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1006/225735.285:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1006/225735.285:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1006/225900.577:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225900.577:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225900.577:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225900.577:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1006/225900.577:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1006/225900.593:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1006/225900.593:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/074919.000:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/074919.021:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1007/074919.023:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/074919.939:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[1007/074940.668:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/074940.672:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1007/074940.673:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/074940.709:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
+[1007/091718.681:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091718.681:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091718.681:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091718.681:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/091718.681:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/091718.697:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1007/091718.697:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/235102.962:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/235102.962:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/235102.962:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/235102.962:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1007/235102.962:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
+[1007/235102.978:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1007/235102.978:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Coldmay\settings.dat: Access is denied. (0x5)
